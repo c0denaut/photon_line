@@ -41,7 +41,7 @@ class PhotonLine:
 
     def histogram(self):
         """
-        Гистограмма с оптимизированными подписями
+        Функция, принимающая в себя массивы данных и выводящая гистограмму с распределением фотонов по уровням.
         """
         if not hasattr(self, 'counts'):
             print("Сначала выполните моделирование")
@@ -143,4 +143,5 @@ class PhotonLine:
     #              verticalalignment='top', fontsize=9)
     #
     #     plt.tight_layout()
+
     #     plt.show()
